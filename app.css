@@ -1,0 +1,60 @@
+body{
+    /* background-color: #ffc6ff; */
+    background-color: #9c89b8;
+    font-family: 'Nunito', sans-serif;    
+}
+
+#mainNavbar .navbar-brand{
+    /* color: #ff0505; */
+    color:red;
+    font-size: 1.5rem; 
+    /* no space between number and unit for font size */
+    font-weight: 200;
+}
+
+#mainNavbar .nav-link{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#mainNavbar .nav-link:hover{
+    color: purple;
+}
+p{
+    color:white;
+}
+
+.bottomMargin{
+    margin-bottom: 50px;
+}
+
+#headingGroup span{
+    color: red;
+}
+
+#headingGroup h1{
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+footer{
+    background-color: purple;
+    color:white;
+    height:30px;
+}
+
+.navbar.scrolled{
+    /* background-color: rgb(253, 169, 253); */
+    background-color: #e5b3fe;
+    transition: background 500ms;
+}
+
+@media(max-width:1100px){
+    #headingGroup h1{
+        font-size: 3rem;
+    }
+    .bottomMargin{
+        margin-bottom: 0;
+    }
+}
